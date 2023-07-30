@@ -1,0 +1,25 @@
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+.profile-avatar {
+  border-radius: 50%;
+  border: 3px solid #0074d9;
+  background-color: #0074d9;
+  object-fit: cover;
+
+  
+}
+.flex{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 20px;
+}
+.profile-avatar:hover  {
+  border: 3px solid #d92100;
+}
+.name{
+  font-size: 30px;
+}
